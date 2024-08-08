@@ -39,7 +39,6 @@ Deletes files in the S3 bucket that match a user-defined regex pattern.
 - `aws-sdk`: For interacting with AWS services.
 - `yargs`: For command-line argument parsing.
 - `readline-sync`: For synchronous user input.
-- `ini`: For parsing AWS configuration files.
 - `crypto`: For encryption and decryption of credentials.
 
 ## License
