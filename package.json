@@ -1,0 +1,29 @@
+{
+  "name": "s3-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "upload": "ts-node cli.ts upload",
+    "filter": "ts-node cli.ts filter",
+    "delete": "ts-node cli.ts delete",
+    "list": "ts-node cli.ts list",
+    "configure": "ts-node cli.ts configure"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^22.1.0",
+    "@types/readline-sync": "^1.4.8",
+    "aws-sdk": "^2.1670.0",
+    "readline-sync": "^1.4.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "@types/yargs": "^17.0.33"
+  }
+}
